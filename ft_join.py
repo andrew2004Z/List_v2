@@ -10,7 +10,7 @@ def ft_join(lst, sep=' '):
     lst1 = []
     for i in lst:
         lst1.append(f'{i}')
-    for i in range(ft_len(lst) - 2):
+    for i in range(ft_len(lst) - 1):
         a += lst1[i] + sep
     a += lst1[-1]
     return a
