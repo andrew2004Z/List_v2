@@ -5,10 +5,10 @@ def ft_len(mass):
     return l
 
 
-def ft_join(lst, sep=' '):
+def ft_join(lst, sep1=' '):
     a = ''
     lst1 = []
     for i in range(ft_len(lst) - 1):
-        a += str(lst1[i]) + sep
-    a += str(lst1[-1])
+        a += str(lst[i]) + sep1
+    a += str(lst[-1])
     return a
