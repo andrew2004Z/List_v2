@@ -8,6 +8,6 @@ def ft_len(mass):
 def ft_join(lst, sep=' '):
     a = ''
     for i in range(ft_len(lst) - 2):
-        a = a + sep + f'{lst[i]}'
-    a += lst[-1]
+        a += str(lst[i]) + sep 
+    a += str(lst[-1])
     return a
