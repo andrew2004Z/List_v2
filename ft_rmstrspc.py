@@ -4,4 +4,3 @@ def ft_rmstrspc(stsr):
         if i != '':
             otvet += i
     return otvet
-

@@ -10,4 +10,3 @@ def ft_odd_even_separator_lst(lst):
     otvet.append(a1)
     otvet.append(a2)
     return otvet
-

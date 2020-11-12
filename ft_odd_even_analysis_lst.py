@@ -28,5 +28,3 @@ def ft_odd_even_analysis_lst(lst):
     print(f'Минимальная четная цифра:{maxc},' + '\t\t' + f'Минимальная нечетная цифра:{maxn},')
     print(f'Сумма четных чисел:{sumc},' + '\t\t' + f'Сумма нечетных чисел:{sumn},')
     print()
-
-ft_odd_even_analysis_lst([1, 2, 3])

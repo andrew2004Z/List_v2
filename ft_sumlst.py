@@ -3,4 +3,3 @@ def ft_sumlst(lst):
     for i in lst:
         s += i
     return s
-

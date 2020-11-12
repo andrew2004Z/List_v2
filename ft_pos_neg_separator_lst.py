@@ -11,4 +11,3 @@ def ft_pos_neg_separator_lst(lst):
             otr.append(i)
     otvet = [otr, null, pol]
     return otvet
-

@@ -1,6 +1,5 @@
 def ft_strtlist(strs):
     a = []
     for i in strs:
-        a += [i]
+        a.append(i)
     return a
-

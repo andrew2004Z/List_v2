@@ -44,4 +44,3 @@ def ft_pos_neg_analysis_lst(lst):
     print()
     print(f"Количество нулей: {null}")
     print()
-
